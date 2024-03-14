@@ -12,7 +12,7 @@ def connect():
                                     database=os.environ['DATABASE_NAME'], 
                                     user=os.environ['DATABASE_USERNAME'],
                                     password=os.environ['DATABASE_PASSWORD'])
-            print("Database con';nection was successful!")
+            print("Database connection was successful!")
             break
         except Exception as error:
             print(f"Connecting to database failed: {error}")
